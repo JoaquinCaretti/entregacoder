@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../images/jj.webp");
+    height: 90vh auto;
+    width: 90vw auto;
+}
+.reservaback{
+background-color:rgba(250, 235, 215, 0.527);
+margin-left: 10%;
+margin-right: 10%;}
+.iniciocss
+
+{background-color:rgba(250, 235, 215, 0.527);
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.nav-item {
+    justify-content: space-around;
+    padding-left: 40px;
+}
+
+#carouselExampleCaptions {
+    margin: 52px;
+}
+
+.container {
+    background-color: rgba(250, 235, 215, 0.527);
+}
+
+.ubicacion {
+    width: 450px;
+    border-radius: 5%;
+}
+
+.parraforeserva {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+}
+
+.parraforeserva ul {
+    list-style: none;
+}
+
+.parraforeserva li {
+    padding-bottom: 1%;
+}
+
+.boton {
+    position: absolute;
+    padding-top: 90px;
+}
+
+.reserva {
+    display: flex;
+}
+
+.sub1 {
+    padding-top: 2%;
+    align-items: center;
+flex-direction: column;
+    display: flex;
+   
+}
+
+.sub2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botonreservar {
+    display: flex;
+    justify-content: center;
+}
+.contenedorplatos
+{margin-left: 10%;
+margin-right: 10%;
+background-color:rgba(250, 235, 215, 0.527);}
+.contenedorplatos h1
+{text-decoration: underline;}
+
+
+
+/** inicio */
+.nosotrosubicacion img
+{padding-bottom: 50px;}
+
+.cardsinicio .card{
+  box-shadow: 0 0 5px 0 rgba(22, 22, 26, .25);
+}
+
+
+
+
+.fotos22 img
+{width: 100%;
+ 
+}
+
+.fotos22 img:hover
+{transform: scale(140%);
+border-radius: 4%;}
+.columna
+{flex: 25%;
+padding:5px;}
+
+.row
+{display: flex;
+  padding: 5px;
+  flex-wrap: wrap;}
+
+  .columna img{
+    padding-top:5px;
+  }
+
+  @media (max-width: 900px) {
+    .columna
+    {flex: 50%}
+  }
+  @media (max-width: 600px) {
+    .columna
+    {flex: 100%}
+  }
+  
